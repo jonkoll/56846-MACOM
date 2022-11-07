@@ -1,3 +1,35 @@
+ASSIGNMENT 1, SIMPLE TOKEN SORTER
+
+The program controls the robots behaviour within the framework described in the handout. It is very simple, but hardcoded to work within the given initial positions of the robot and the tokens. 
+
+
+Program flow:
+--------------
+For each token pair: 
+	* Go to silver token
+	* Grab token
+	* Rotate 90 degrees counterclockwise
+	* Locate gold token
+	* Go to gold token
+	* Release silver token
+	* Rotate 90 degrees clockwise
+
+
+Possible improvements:
+-----------------------
+The principal weakness of the program is its lack of robustness. As it does not determine or store which tokens have already been sorted, it relies on hardcoded turns to ensure that the R.see() method finds the correct token to ensure proper program flow. This also requires the first pair be treated differently, as the initial robot position is different from the position it will have after sorting a pair. As a result of this, the program is not guaranteed to work for different initial robot and token placements, and cannot deal with a larger number of tokens. Rewriting the program to deal with a different setup may be more or less difficult, depending on its structure. 
+
+Expanding the program to be able to deal with any number of tokens and any initial setup is possible, but it would likely increase the complexity of the program and effort required to write and understand it. The program as it is solves the given assignment in a simple manner. 
+
+
+
+
+
+
+
+HANDOUT README, DETAILING THE ROBOTICS SIMULATOR
+
+
 Python Robotics Simulator
 ================================
 
