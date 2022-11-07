@@ -1,18 +1,21 @@
 ASSIGNMENT 1, SIMPLE TOKEN SORTER
+=================================
 
 The program controls the robots behaviour within the framework described in the handout. It is very simple, but hardcoded to work within the given initial positions of the robot and the tokens. 
 
 
 Program flow:
 --------------
+Pseudocode describing the general program flow. 
+
 For each token pair: 
-	* Go to silver token
-	* Grab token
-	* Rotate 90 degrees counterclockwise
-	* Locate gold token
-	* Go to gold token
-	* Release silver token
-	* Rotate 90 degrees clockwise
+* Go to silver token
+* Grab silver token
+* Rotate ~90 degrees counterclockwise
+* Locate gold token
+* Go to gold token
+* Release silver token
+* Rotate ~90 degrees clockwise
 
 
 Possible improvements:
@@ -28,7 +31,7 @@ Expanding the program to be able to deal with any number of tokens and any initi
 
 
 HANDOUT README, DETAILING THE ROBOTICS SIMULATOR
-
+=================================
 
 Python Robotics Simulator
 ================================
