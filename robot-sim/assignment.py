@@ -4,15 +4,6 @@ import time
 from sr.robot import *
 
 
-#grab requirements
-a_th_grab = 2.0
-d_th_grab = 0.4
-
-#release requirements
-a_th_release = 2.0		
-d_th_release = 0.8		
-
-
 def drive(speed, seconds):
     R.motors[0].m0.power = speed
     R.motors[0].m1.power = speed
@@ -111,6 +102,15 @@ def goto_gold():
 
 
 #------_______MAIN_______------#
+#grab requirements
+a_th_grab = 2.0
+d_th_grab = 0.4
+
+#release requirements
+a_th_release = 2.0		
+d_th_release = 0.6		
+
+
 R = Robot()
 tokens_sorted = 0
 
